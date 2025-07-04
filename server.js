@@ -28,6 +28,7 @@ app.use(
         "http://localhost:3000",
         "http://127.0.0.1:3000",
         process.env.FRONTEND_URL,
+        "https://projetreactfrontend-ib5vbs678-ibrahima-ngoms-projects.vercel.app"
       ].filter(Boolean)
       if (allowedOrigins.includes(origin)) {
         callback(null, true)
